@@ -26,6 +26,6 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  const newLastKitten = [name...,name]
+  const newLastKitten = [name..., kittens]
   return newLastKitten;
 }
