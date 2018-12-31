@@ -26,7 +26,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  let newLastKitten = appendKitten(name);
+  const newLastKitten = appendKitten(name);
   return newLastKitten;
 }
 
