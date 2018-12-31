@@ -26,7 +26,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  let newLastKitten = kittens.concat(name);
+  let newLastKitten = [name,...kittens];
   return newLastKitten;
 }
 
